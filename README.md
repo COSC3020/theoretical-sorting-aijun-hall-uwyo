@@ -25,8 +25,6 @@ We could vary by length, range of values, spread of values, distribution of valu
 
 Theoretically we could then test the given output to ensure it is actually sorted, and most importantly its runtime for any given input.
 
-The first thing I would do as a sanity check would be to generate some relatively large input array size (say 1 000 000), and run the algorithm over and over again many times. I think this would be a good thing to check first, because it would be a quick and easy way to ensure that the output is actually deterministic in the first place. If this first test doesn't show deterministic characterstics, then we can already debunk the claim of $O(n)$ runtime.
-
 I would then start with inputting lists of varying lengths, and then analyze the growth rate of the time to spit out an output, with inputsize `n` plotted against time.
 
 I would then move on to inputting lists that are already sorted to some extent. I would try inputting a 100% sorted list, then a 90%, then an 80%, etc...

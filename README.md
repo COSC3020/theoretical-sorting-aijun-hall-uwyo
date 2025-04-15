@@ -37,6 +37,8 @@ If the algorithm actually runs in $O(n)$ time, the data should show a plot that 
 
 There is no such thing however as a sorting algorithm that has a general average time complexity of $O(n)$ with completely unknown inputs (the degree to which the input is already sorted or not is not known).
 
-The best average case with unknown inputs generally for efficient sorting is $O(nlog(n)). So the original claim of this algorithm is dubious.
+The best average case with unknown inputs generally for efficient sorting is $O(nlog(n))$. So the original claim of this algorithm is dubious.
 
 - Referenced https://www.geeksforgeeks.org/time-complexities-of-all-sorting-algorithms/ for looking at general sorting algorithm behaviors and runtimes.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
